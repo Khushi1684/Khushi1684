@@ -1,0 +1,16 @@
+def movie_ticket(age):
+  if  age>=0 and age<=12:
+   return "the children is pay$5:"
+  elif age>=12 and age<=64:
+   return " the adult is pay$17:"
+  else:
+   return "the senior is pay$7:"
+
+def main()
+ age=int(input(" enter the age:"))
+ result= movie_ticket(age)
+ print (result)
+
+
+main()
+
